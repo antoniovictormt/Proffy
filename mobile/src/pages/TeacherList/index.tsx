@@ -1,15 +1,14 @@
 import React, { useState } from 'react'
-import { View, Text, ScrollView, TextInput } from 'react-native'
+import { View, Text, ScrollView, TextInput, Picker } from 'react-native'
 
 import api from '../../services/api';
 
 import AsyncStorage from '@react-native-community/async-storage';
+import { Feather } from '@expo/vector-icons';
+import { BorderlessButton, RectButton } from 'react-native-gesture-handler';
 
 import PageHeader from '../../components/PageHeader';
 import TeacherItem, { Teacher } from '../../components/TeacherItem';
-import { BorderlessButton, RectButton } from 'react-native-gesture-handler';
-import { Feather } from '@expo/vector-icons'
-
 
 import styles from './styles';
 import { useFocusEffect } from '@react-navigation/native';

@@ -106,7 +106,7 @@ const TeacherItem: React.FC<TeacherItemProps> = ({ teacher, favorited }) => {
 
           <RectButton onPress={handleLinkToWhatsapp} style={styles.contactButton}>
             <Image source={whatsappIcon} />
-            <Text style={styles.contactButtonText}>Get in touch</Text>
+            <Text style={styles.contactButtonText}>Get in touch.</Text>
           </RectButton>
 
         </View>

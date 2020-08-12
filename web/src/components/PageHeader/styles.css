@@ -30,7 +30,7 @@
 .page-header .header-content {
   width: 90%;
   position: relative;
-  margin: 3.2rem auto;
+  margin: 3.2rem auto;  
 }
 
 .page-header .header-content strong {
@@ -40,7 +40,7 @@
 }
 
 .page-header .header-content p {
-  max-width: 30rem;
+  max-width: 60rem;
   font-size: 1.6rem;
   line-height: 2.6rem;
   color: var(--color-text-in-primary);
@@ -68,6 +68,6 @@
   }
 
   .page-header .header-content strong {
-    max-width: 350px;
+    max-width: 650px;
   }
 }
