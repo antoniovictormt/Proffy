@@ -36,7 +36,7 @@ function Landing() {
       <Image source={landingImg} style={styles.banner} />
 
       <Text style={styles.title}>
-        {'\n'}Be welcome, {'\n'}
+        Be welcome, {'\n'}
         {/* {'\n'} usado para pular linha no react native */}
         <Text style={styles.titleBold}>
           What do you want to do?
@@ -57,7 +57,7 @@ function Landing() {
           style={[styles.button, styles.buttonSecondary]}
         >
           <Image source={giveClassesIcon} />
-          <Text style={styles.buttonText}>Give Classes</Text>
+          <Text style={styles.buttonText}>Teach</Text>
         </RectButton>
       </View>
 

@@ -71,8 +71,7 @@ function TeacherList() {
 
         {isFilterVisible && (
           <View style={styles.searchForm}>
-            <Text style={styles.label}>Materia</Text>
-
+            <Text style={styles.label}>Subject</Text>
             <TextInput
               style={styles.input}
               value={subject}

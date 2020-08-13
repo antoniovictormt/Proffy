@@ -41,7 +41,7 @@ function Landing() {
           </Link>
           <Link to="/give-classes" className="give-classes">
             <img src={giveClassesIcon} alt="Give Classes" />
-              Give Classes
+            Teach
           </Link>
         </div>
         <span className="total-connections">
